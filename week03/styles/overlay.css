@@ -27,7 +27,7 @@ h2 {
 }
 
 .stats {
-	position: relative;
+	position: absolute;
     bottom: 25px;
     left: 15px;
 	/* top: 25px; */
