@@ -1,0 +1,42 @@
+:root {
+    margin: 0;
+    padding: 0;
+    color: #0000FF;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+  }
+
+header, a {
+    text-align: left;
+    color: blue;
+    
+}
+
+p {
+    width: auto;
+    color: rgb(00, 120, 215);
+    background-color: rgb(255, 255, 255);
+    text-size-adjust: 55%;
+    height: auto;
+    margin: 20px;
+    border: 8px thin #35f732;
+    padding: 4px;
+    box-shadow: 0 0 30px gray;
+}
+
+p img {
+    float: right;
+}
+a {
+    text-decoration: none;
+    width: auto;
+}
+
+div {
+    position: relative;
+    ;
+}
+
+h1, article {
+    position: relative;
+}
