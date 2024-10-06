@@ -1,42 +1,72 @@
 :root {
-    margin: 0;
-    padding: 0;
-    color: #0000FF;
-    font-family: "Helvetica", "Arial", sans-serif;
-    line-height: 1.5;
-  }
+    color-scheme:initial;
+    font-family: Arial, sans-serif;
+}
 
-header, a {
+header {
+    width: 100%;
     text-align: left;
-    color: blue;
-    
+    font-style: normal;
+    color: rgb(180, 205, 228);
 }
 
-p {
-    width: auto;
-    color: rgb(00, 120, 215);
-    background-color: rgb(255, 255, 255);
-    text-size-adjust: 55%;
+div .hero {
+    position: absolute;   
+}
+
+.hero img {
+    margin-top: 20px;
+    display:flex;
+    width: 100%;
     height: auto;
-    margin: 20px;
-    border: 8px thin #35f732;
-    padding: 4px;
-    box-shadow: 0 0 30px gray;
+    margin-bottom: 0px;
 }
 
-p img {
-    float: right;
+h1 {
+    width: 100%;
+    text-align: center;
+    color: rgb(26, 49, 69);
+    position: absolute;
+    background-color: rgba(180, 205, 228, .5);
+    box-shadow: 0 0 30px rgb(11, 7, 22);
 }
+
+article {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid rgba(180, 205, 228, .5);
+    color: rgb(26, 49, 69);
+    position: absolute;
+    background-color: rgba(180, 205, 228, .5);
+    box-shadow: 0 0 30px rgb(11, 7, 22);  
+}
+article h3 {
+    flex: 1;
+    font-size: 1.2em;
+    margin-right: 20px;
+    color: rgb(26, 49, 69);
+    position: absolute;
+    float: left;
+    background-color: rgba(180, 205, 228, .5);
+    box-shadow: 0 0 30px rgb(11, 7, 22);
+}
+
+article img {
+    width: 1000px;
+    height: auto;
+    margin-left: 20px;
+    position:absolute;
+    float: right;
+     
+}
+
 a {
     text-decoration: none;
-    width: auto;
 }
 
-div {
-    position: relative;
-    ;
-}
 
-h1, article {
-    position: relative;
-}
+
