@@ -3,7 +3,6 @@
     --heading-text-color:rgb(26, 49,69);
     --heading-font: Arial, Helvetica, sans-serif;
     --padding:1rem;
-    --border: 1px solid rgba (0,0,0,1,)
 }
 
 /* this contain a type selector*/
@@ -30,7 +29,7 @@ header {
 
 .menu a{
     border: 1px auto #000;
-	padding: 30px auto;
+	padding: 30px;
 	box-shadow: 0 0 10px #111;
     text-align: center;
     text-decoration: none;
@@ -146,7 +145,7 @@ article .customer {
     grid-column-start:1;
     grid-column-end:1;
     text-align: justify;
-    justify-self: center;
+    justify-self:flex-start;
     margin-left: 5%;
 }
 
@@ -167,7 +166,7 @@ article .customer {
 .beach1 {
     grid-column-start:1;
     grid-row-start: 2;
-    text-align: top;
+    text-align: start;
     align-self: center;
     justify-self: center;
 }
