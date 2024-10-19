@@ -251,7 +251,6 @@ footer p {
     
 }
 .information p {
-    grid: 10px; 
     padding-left: 40px;
     grid-column-start: 1;
     text-align: end;
@@ -345,4 +344,8 @@ textarea {
 }
 .full-width {
     width: 100%;
+}
+
+a p {
+    text-align: center;
 }
