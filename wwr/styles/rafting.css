@@ -28,9 +28,7 @@ header {
 }
 
 .menu a{
-    border: 1px #000;
-	padding: 30px;
-	box-shadow: 0 0 10px #111;
+   	box-shadow: 0 0 10px #111;
     text-align: center;
     text-decoration: none;
 }
@@ -49,7 +47,6 @@ header {
     width:100%;
     height: auto;
     z-index: -1;
-    
 }
 
 h1 {
@@ -149,7 +146,6 @@ article .customer {
     margin-left: 5%;
 }
 
-
 .adventure {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -208,7 +204,7 @@ footer {
     margin-top: 5%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows:100%;
+    grid-template-rows:40%;
     grid-gap: 10px;
 }
 
@@ -217,15 +213,136 @@ footer {
     position:absolute;
     justify-self: right;
     margin-right:5% ;
-
-        
 }
 
 footer p {
     grid-column-start:1;
     grid-column-end:2;
+    
     justify-self: center;
 }
 
+/* Here start contact page */
 
+.information {
+    display: grid;
+    box-shadow: 0 0 10px #111;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 20% 20% 20%;
+    margin-bottom: 10px;
+}
 
+.information, h4 {
+    /* width: 100%;
+    text-align: center;
+    color: rgb(26, 49, 69);
+    position: absolute;
+    background-color: rgba(180, 205, 228, .5);
+    box-shadow: 0 0 30px rgb(11, 7, 22); */
+    
+    display:grid;
+    position:relative;
+    justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:1;
+    grid-row-end:1;
+    
+}
+.information p {
+    grid: 10px; 
+    padding-left: 40px;
+    grid-column-start: 1;
+    text-align: end;
+    justify-self: end;
+}
+
+.information iframe {
+    grid-column-start:2;
+    grid-row-start:2;
+    grid-row-end:5;
+    justify-self:center;
+}
+
+.ourteam {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    box-shadow: 0 0 10px #111;
+}
+
+.teamsnames {
+    grid-column-start:1;
+    grid-column-end: 6;
+    text-align: center;
+}
+
+.worker {
+    grid-column-start:1;
+    grid-row-start: 2;
+    text-align:center;
+    align-self: center;
+    justify-self: center;
+}
+
+.worker1 {
+    grid-column-start:2;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+}
+.worker2 {
+    grid-column-start:3;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+}
+.worker3 {
+    grid-column-start:4;
+    grid-row-start: 2;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+.worker4 {
+    grid-column-start:5;
+    grid-row-start: 2;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.ourteam p {
+    text-align: center;
+}
+
+table {
+    /* background-color: green; */
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px #111;
+    
+}
+td {
+    vertical-align: top;
+}
+.contact-us {
+    text-align: center;
+}
+.infocolumn, .form-column {
+    width: 50%;
+}
+textarea {
+    width: 99%;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.submit-button {
+    text-align: center;
+    margin-top: 20px;
+}
+.full-width {
+    width: 100%;
+}
