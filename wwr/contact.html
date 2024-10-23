@@ -83,15 +83,23 @@
                     </tr>
                     <tr>
                         <td colspan="2">
+                        <form>    
                             <fieldset>
-                                <legend>Select Topic</legend><br>
-                                <label for="interest">Contact with us</label><br><br>
-                                <select id="interest" name="interest" class="full-width">
-                                    <option value="generalinquiry">General Inquiry</option>
-                                    <option value="reservation">Reservation Question</option>
-                                    <option value="websitesuggestion">Website Suggestion</option>
-                                </select>
+                                <legend>Select Topic:</legend>
+                                <div>
+                                    <input type="radio" id="general" name="general" value="generalinquiry" />
+                                    <label for="generalinquiry">General Inquiry</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="reservation" name="reservation" value="reservationquestionuestion" />
+                                    <label for="reservationquestion">Reservation Question</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="website" name="website" value="websitesuggestion" />
+                                    <label for="websitesuggestion">Website Suggestion</label>
+                                </div>
                             </fieldset>
+                        </form>
                         </td>
                     </tr>
                     <tr>
@@ -110,7 +118,7 @@
                 </table>
                 <BR>
                 <label for="newsletter">Click the checkbox to subscribe newsletter?</label>
-                <input type="checkbox" id="newsletter" name="newsletter">
+                <input type="checkbox" id="newsletter" id="newsletter">
             </section>
             </main>               
         <footer> 
