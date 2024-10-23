@@ -22,7 +22,7 @@ header h1 {
     color: rgb(26, 49, 69);
     position: relative;
     background-color: rgba(180, 205, 228, .5);
-    box-shadow: 0 0 30px rgb(11, 7, 22);
+    box-shadow: 0 0 10px rgb(11, 7, 22);
 }
 header p {
     width: 100%;
