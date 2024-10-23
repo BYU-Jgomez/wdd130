@@ -14,6 +14,26 @@ header {
     color: rgb(180, 205, 228);
 }
 
+header h1 {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end:3;
+    text-align: center;
+    color: rgb(26, 49, 69);
+    position: relative;
+    background-color: rgba(180, 205, 228, .5);
+    box-shadow: 0 0 30px rgb(11, 7, 22);
+}
+header p {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end:3;
+    text-align: center;
+    color: rgb(26, 49, 69);
+    position: relative;
+    background-color: rgba(180, 205, 228, .5);
+}
+
 .logo-box {
     display:flex;
     width:min-content;
