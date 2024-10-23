@@ -342,8 +342,20 @@ table {
     width: 100%;
     border-collapse: collapse;
     box-shadow: 0 0 10px #111;
-    
+}    
+
+fieldset {
+    display: grid;
 }
+
+fieldset form {
+    display: grid;
+    border-collapse: collapse;
+    position:relative;
+    /* box-shadow: 0 0 10px #111;     */
+    border: 5px;
+}
+
 td {
     vertical-align: top;
 }
