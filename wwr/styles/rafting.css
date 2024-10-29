@@ -473,7 +473,7 @@ button:active {
 /* Here start trips */
 
 .invitation {
-    box-shadow: 2px solid black;
+    box-shadow: 0 0 5px #111;
 }
 .ouradventures {
     /* background-color: yellow; */
