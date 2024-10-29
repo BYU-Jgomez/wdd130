@@ -514,7 +514,7 @@ button:active {
   }
 
 .rafting {
-    position: flex;
+    display: flex;
     justify-self: center;
     width: 60%;
     height: auto;
@@ -525,7 +525,7 @@ button:active {
     box-shadow: 0 0 5px #111;
 }
 .camping {
-    position: flex;
+    display: flex;
     width: 60%;
     height: auto;
     justify-self: center;
@@ -536,7 +536,7 @@ button:active {
     box-shadow: 0 0 5px #111;
 }
 .horseback {
-    position: flex;
+    display: flex;
     width: 60%;
     justify-self: center;
     grid-column-start: 3;
@@ -579,7 +579,7 @@ button:active {
     justify-self:center;
 }
 .principal {
-    width: 50;
+    width: 50px;
     justify-self: center;
 }
 
