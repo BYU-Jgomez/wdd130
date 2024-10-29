@@ -579,14 +579,17 @@ button:active {
     justify-self:center;
 }
 .principal {
-    width: 50px;
+    width: 500px;
     justify-self: center;
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+
 }
 
 section.homepage {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-template-rows: 33% 33% 33%;
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.5); 
 }
 
 .homepage .home1 {
