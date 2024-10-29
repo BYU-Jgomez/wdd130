@@ -1,16 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="wwr/styles/wwstyles.css"> 
-</head>
-<body>
-    <a>
-        <img src=""
-
-    </a>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <meta name="description" content="The home page will contain some attention grabbing information including company 
+                                            information, call(s) to action, appealing graphics, and other items.">
+        <meta name="author" content="Jonathan Gómez">
+        <link rel="stylesheet" href="styles/rafting.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo-box">
+                <img src="images/logo.png" alt="logo-box" width="200">
+            </div>
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>                
+            </nav>
+            <h1> Whitewater Rafting Inc.</h1>
+            <p>White water rafting is a recreation where typically a non-motorized water craft floats and 
+                navigates down free flowing rivers. A rafting company organizes and manages trips which most 
+                often include experienced guides. The business intent is to provide a thrilling 
+                and safe experience to individuals and groups for a fee.</p>
+        </header>
+        <main>
+            <section class="principal">
+                <img src="images/costumer.webp" alt="principal">
+                <p></p>
+            </section>
+            <section class="homepage">
+                <h4 class="home1">Why Adventure Indoors When You Can Fight Nature Instead?</h4>
+                <p class="homi1">Join us for an unforgettable experience of surviving the great outdoors! Whether you’re dodging splashes in our rafting tours, attempting to become a pro-camper (read: learning how to pitch a tent without instructions), or bonding with a horse who’s almost as stubborn as you—there’s no shortage of wild memories to be made. 🌊🔥🐴</p>
+                    
+                <h4 class="home2">Wondering What You’ll Need?</h4>
+                <p class="homi2">Bring a sense of adventure, maybe some bravery… and, okay, perhaps a dry towel. We’ll handle the rest. 👀</p>
+                    
+                <h4 class="home3">Ready to Embrace the Outdoors?</h4>
+                <p class="homi3">If you’re still reading, we’re taking that as a “YES!” Message us to book your adventure, and prepare to return with stories (and possibly souvenirs… like mud). 🌲📲</p>
+            </section> 
+            <section class="informationreq">
+                <table>
+                    <tr class="contact-us">
+                        <td colspan="2">
+                            <h2>Send us a Message</h2>
+                            <p>Send us a message and we'll respond within 24 hours.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="infocolumn">
+                            <fieldset>
+                                <form>
+                                    <div class="form1">
+                                      <label for="name">Enter your fullname: </label>
+                                      <input type="text" name="name" id="name" required>
+                                    </div>
+                                </form>
+                            </fieldset>
+                        </td>
+                        <td class="form-column">
+                            <fieldset>
+                                <form>
+                                    <div class="form2">
+                                      <label for="email">Enter your email: </label>
+                                      <input type="text" name="email" id="email" required>
+                                    </div>
+                                </form>
+                                    
+                        </fieldset>       
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        <form>    
+                            <fieldset>
+                                <legend>Select Topic:</legend>
+                                <div>
+                                    <input type="radio" id="general" name="contact" value="generalinquiry" checked>
+                                    <label for="general">General Inquiry</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="reservation" name="contact" value="reservationquestionuestion">
+                                    <label for="reservation">Reservation Question</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="website" name="contact" value="websitesuggestion">
+                                    <label for="website">Website Suggestion</label>
+                                </div>
+                            </fieldset>
+                        </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p>Message</p>
+                            <textarea id="suggestion" name="suggestion" rows="4" placeholder="Add your comments or suggestions."></textarea>
+                        </td>
+                    </tr>
+            
+                    <!-- Submit button at the bottom, centered -->
+                    <tr>
+                        <td colspan="2" class="submit-button">
+                            <button type="submit" onclick="alert('Thanks for contact us!')">Send Message</button>
+                        </td>
+                    </tr>   
+                </table>
+                <BR>
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" name="newsletter" id="newsletter">
+            </section>
+            </main>               
+        <footer> 
+            
+            <p>©️ 2024, Whitewater Rafting Inc. Jonathan Gómez</p>
+            
+            <nav class="sociallinks">
+                <a href="https://www.facebook.com">
+                    <img class="social" src="images/facebook.svg" alt="Facebook">
+                </a> 
+                <a href="https://www.instagram.com">
+                    <img class="social" src="images/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com">
+                    <img class="social" src="images/linkedin.svg" alt="LinkedIn">
+                </a>
+            </nav>
+            <a class="submit" href="https://app.moqups.com/ybIgw9B35DVf2mJQqpXKuRWKs3OxVp1A/view/page/a077ada1f" rel="moqups">
+                <p>Click here to watch Wireframe.</p></a>
+                  
+        </footer>
+    </body>
 </html>
