@@ -31,7 +31,7 @@ header p {
     text-align: center;
     color: rgb(26, 49, 69);
     position: relative;
-    background-color: rgba(180, 205, 228, .5);
+    /* background-color: rgba(180, 205, 228, .5); */
 }
 
 .logo-box {
@@ -55,7 +55,7 @@ header p {
 
 .hero {
     display:grid;
-    grid-template-rows: 10% 58% 10%;
+    grid-template-rows: 10% 40% 10%;
     grid-template-columns: 10% 80% 10%;
     top: 5px;
     bottom: 5px;
@@ -82,12 +82,12 @@ h1 {
 article {
     /* background-color: rgba(180, 205, 228, .5); */
     display:grid;
-    position:relative;
-    grid-row-start: 2;
-    grid-row-end:2;
+    /* grid-row-start: 2; */
+    /* grid-row-end:2; */
     grid-column-start:2;
-    grid-row-end:2;
+    /* grid-row-end:2; */
     grid-template-columns: 80% 20%;
+
     margin-block: 35%;
     
 }
@@ -109,6 +109,7 @@ article .text_customer {
 
 article .customer {
     background-color: rgba(180, 205, 228, .5);
+    -ms-layout-grid-line: auto;
     grid-row-start: 1;
     grid-column-start:2;
     align-items: center;
@@ -120,7 +121,7 @@ article .customer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 70px 180px 70px;
     grid-gap:10px;
-    margin-block: 20px;
+    margin-block: 10px;
     justify-content: space-around;
     box-shadow: 0 0 10px #111;
 }
@@ -396,4 +397,81 @@ button {
 button:active {
     transform: scale(0.98); 
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}
+
+/* Here start trips */
+
+.invitation {
+    background-color: none;
+    box-shadow: 2px solid black;
+}
+.ouradventures {
+    /* background-color: yellow; */
+    display:grid;
+    justify-content: space-around;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 23% 50% 25%;
+    justify-content:space-around;
+    box-shadow: 0 0 5px #111;
+}
+
+.ouradventures h2 {
+    /* background-color: green; */
+    display:flex;
+    height: 50%;
+    /* margin-right:10%; */
+    justify-content:space-around;
+    grid-column-start: 1;
+    grid-column-end:4;
+    box-shadow: 0 0 5px #111;
+}
+
+.ouradventures a {
+    background-color: rgb(26, 49, 69);
+    width: 40%;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    justify-self: center;
+    box-shadow: 0 0 3px #100;
+}
+.ouradventures a:active {
+    background-color: #010302;
+  }
+
+.rafting {
+    position: flex;
+    justify-self: center;
+    width: 60%;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 2;
+    grid-row-end:3;
+    box-shadow: 0 0 5px #111;
+}
+.camping {
+    position: flex;
+    width: 60%;
+    height: auto;
+    justify-self: center;
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end:3;
+    box-shadow: 0 0 5px #111;
+}
+.horseback {
+    position: flex;
+    width: 60%;
+    justify-self: center;
+    grid-column-start: 3;
+    grid-column-end:4;
+    grid-row-start: 2;
+    grid-row-end:2;
+    box-shadow: 0 0 5px #111;
 }
