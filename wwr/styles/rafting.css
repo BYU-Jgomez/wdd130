@@ -92,7 +92,7 @@ article {
 }
 div.hero {
     width: 100%;
-    height: 10%px;
+    height: 10%;
     margin-bottom: 5%;
 }
 
@@ -263,8 +263,8 @@ footer {
 
 .sociallinks {
     display:flex;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
+    grid-column-start: 2;
+    grid-row-start: 2;
     position:absolute;
     justify-self: right;
     margin-right:5% ;
